@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Open+Sans:400,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+
+
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.job-wrap {
+
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.017);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.075);
+
+    box-sizing: border-box;
+   
+
+    .header {
+        // font-family: 'Clicker Script', cursive;
+        display: flex;
+        // border-bottom: 1px solid #000;
+        height: 50px;
+        background-color: rgba(0, 0, 0, 0.017);
+        padding: 10px 15px;
+        align-content: center;
+
+        h2 {
+            font-weight: normal;
+        }
+
+        .add-icon {
+            font-size: 2em;
+            line-height: 50px;
+            margin-left: auto;
+            margin-top: auto;
+            position: relative;
+            top: -15px;
+            cursor: pointer;
+        }
+
+    }
+}
+
+.task {
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    padding: 10px;
+    
+}
+.tasks{
+    min-height: 200px;
+    padding-bottom: 20px;
+}
+.modal {
+    background-color: rgba(0, 0, 0, 0.623);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-wrap{
+        width: 500px;
+        padding: 20px 30px;
+        background-color: #fff;
+        background-color: rgba(252, 252, 252, 0.87);
+
+        textarea{
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+        }
+        
+        
+        
+    }
+}
+
+.nodisplay{
+    display: none;
+}
